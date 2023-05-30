@@ -1,31 +1,27 @@
-package week1.day2;
+package week3.day2;
 
-public class Student {
+public class Student extends Department{
 	
-	 public void studentName() {
-		// TODO Auto-generated method stub
-		 System.out.println("studentName : Alisha");
+	public void studentName() {
+		System.out.println("Student Name");
 	}
 	
-	 public void rollNo() {
-		// TODO Auto-generated method stub
-		System.out.println("rollNo : 25");
+	public void studentDept() {
+		System.out.println("Student Department");
 	}
 	
-	 public void collegeName() {
-		// TODO Auto-generated method stub
-		System.out.println("collegeName : SJPS");
+	public void studentId() {
+		System.out.println("Student Id");
 	}
-	
-	 public void markScored() {
-		// TODO Auto-generated method stub
-		System.out.println("markScored : 90");
+
+	public static void main(String[] args) {
+		Student s = new Student();
+		s.collegeName();
+		s.collegeCode();
+		s.collegeRank();
+		s.deptName();
+		s.studentName();
+		s.studentDept();
+		s.studentId();
 	}
-	
-	 public void cgpa() {
-		// TODO Auto-generated method stub
-		System.out.println("cgpa : 8.8");
-	}
-	
 }
-
